@@ -53,6 +53,6 @@ deploy:
         with: 
          path: "./out"
       - name: deploy
- id: deployment
- uses: actions/deploy-pages@v1
+        id: deployment
+        uses: actions/deploy-pages@v1
       - run: npm test
